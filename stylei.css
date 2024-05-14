@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    margin-top: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post .description {
+    padding: 10px;
+}
+
+.post .actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.post .actions .likes,
+.post .actions .comments {
+    cursor: pointer;
+}
+
+.post .comments-section {
+    padding: 10px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.post .comments-section .comment {
+    margin-bottom: 10px;
+}
+
+.post .comments-section .add-comment {
+    display: flex;
+}
+
+.post .comments-section .add-comment input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.post .comments-section .add-comment button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #0095f6;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
