@@ -36,37 +36,6 @@ body {
     border-top: 1px solid #dbdbdb;
 }
 
-.post .actions .likes,
-.post .actions .comments {
-    cursor: pointer;
-}
-
-.post .comments-section {
-    padding: 10px;
-    border-top: 1px solid #dbdbdb;
-}
-
-.post .comments-section .comment {
-    margin-bottom: 10px;
-}
-
-.post .comments-section .add-comment {
-    display: flex;
-}
-
-.post .comments-section .add-comment input {
-    flex: 1;
-    padding: 5px;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-
-.post .comments-section .add-comment button {
-    padding: 5px 10px;
-    border: none;
-    background-color: #0095f6;
-    color: #fff;
-    border-radius: 3px;
+.post .actions .likes{
     cursor: pointer;
 }
