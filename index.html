@@ -1,14 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My insta</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container" id="postContainer">
-    </div>
-    <script src="script.js"></script>
- </body>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+
+    <section id="posts"> 
+        <div id="postsBox"> 
+            <div id="firstPost" class="post"> 
+                <div class="avaBox"> 
+                    <img id="imgpost" class="ava" src="ava.jpg"> 
+                    <b>do_rinaaa</b> 
+                </div> 
+                <img class="img" src="dasha.jpg"> 
+                 <div class="mtb"> 
+                <a onclick="likes()" class="btn">❤️</a> 
+                <div class="likes">                    
+                    <b class="like"> Likes: </b>
+                    <p id="likeCount">0</p>
+                </div>
+                </div>
+
+                <div> 
+                    My trip to Seoul! 
+                </div> 
+                <div class="com">
+                   <input id="comInput" class="fade-in"> 
+                   <c onclick="addComment()" class="btn">Post</c>
+                  
+                </div>
+
+            </div>     
+        </div> 
+    </section> 
+    <script src="script.js"></script> 
+</body> 
 </html>
