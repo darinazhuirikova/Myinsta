@@ -7,10 +7,12 @@ body {
     justify-content: center;
 }
 
+
 .container {
     width: 600px;
     margin-top: 20px;
 }
+
 
 .post {
     background-color: #fff;
@@ -20,14 +22,17 @@ body {
     overflow: hidden;
 }
 
+
 .post img {
     width: 100%;
     height: auto;
 }
 
+
 .post .description {
     padding: 10px;
 }
+
 
 .post .actions {
     display: flex;
@@ -36,6 +41,8 @@ body {
     border-top: 1px solid #dbdbdb;
 }
 
+
 .post .actions .likes{
     cursor: pointer;
 }
+
