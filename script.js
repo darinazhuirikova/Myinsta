@@ -1,6 +1,6 @@
 const postContainer = document.getElementById('postContainer');
 const images = [
-    'hybe', 'bus', 'korea', 'dasha', 'jimin'
+    'hybe.jpg', 'bus.jpg', 'korea.jpg', 'dasha.jpg', 'jimin.jpg'
 ];
 const descriptions = [
     'that's me near to HYBE Entertaiment trying to meet Jungkook!', 'Went to the air cinema with my friends!', 'Walking on Myeongdong and trying korean street food!', 'Nice walk with my friend in the Dostyk Plaza!', 'Making photos near to the bus inspered by Jimin's Birthday!'
