@@ -1,9 +1,9 @@
 const postContainer = document.getElementById('postContainer');
 const images = [
-    'image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg'
+    'image.jpg', 'bus.jpg', 'korea.jpg', 'dasha.jpg', 'jimin.jpg'
 ];
 const descriptions = [
-    'Description 1', 'Description 2', 'Description 3', 'Description 4', 'Description 5'
+    'that's me near to HYBE Entertaiment trying to meet Jungkook!', 'Went to the air cinema with my friends!', 'Walking on Myeongdong and trying korean street food!', 'Nice walk with my friend in the Dostyk Plaza!', 'Making photos near to the bus inspered by Jimin's Birthday!'
 ];
 
 
